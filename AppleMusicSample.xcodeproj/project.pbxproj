@@ -14,6 +14,11 @@
 		EF12B55223D1B99300FFE2E8 /* AppleMusicSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF12B55023D1B99300FFE2E8 /* AppleMusicSample.xcdatamodeld */; };
 		EF12B55423D1B99500FFE2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF12B55323D1B99500FFE2E8 /* Assets.xcassets */; };
 		EF12B55723D1B99500FFE2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF12B55523D1B99500FFE2E8 /* LaunchScreen.storyboard */; };
+		EF12B55F23D1B9EF00FFE2E8 /* AppleMusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12B55E23D1B9EF00FFE2E8 /* AppleMusicTableViewCell.swift */; };
+		EF12B56123D1B9F600FFE2E8 /* AppleMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF12B56023D1B9F600FFE2E8 /* AppleMusicTableViewCell.xib */; };
+		EF12B56323D1B9FE00FFE2E8 /* AppleMusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF12B56223D1B9FE00FFE2E8 /* AppleMusicCollectionViewCell.swift */; };
+		EF12B56523D1BA0600FFE2E8 /* AppleMusicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF12B56423D1BA0500FFE2E8 /* AppleMusicCollectionViewCell.xib */; };
+		EF12B56723D1BADD00FFE2E8 /* ドン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF12B56623D1BADD00FFE2E8 /* ドン.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		EF12B55323D1B99500FFE2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF12B55623D1B99500FFE2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF12B55823D1B99500FFE2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF12B55E23D1B9EF00FFE2E8 /* AppleMusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicTableViewCell.swift; sourceTree = "<group>"; };
+		EF12B56023D1B9F600FFE2E8 /* AppleMusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMusicTableViewCell.xib; sourceTree = "<group>"; };
+		EF12B56223D1B9FE00FFE2E8 /* AppleMusicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF12B56423D1BA0500FFE2E8 /* AppleMusicCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMusicCollectionViewCell.xib; sourceTree = "<group>"; };
+		EF12B56623D1BADD00FFE2E8 /* ドン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ドン.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				EF12B54723D1B99300FFE2E8 /* AppDelegate.swift */,
+				EF12B56623D1BADD00FFE2E8 /* ドン.jpg */,
 				EF12B54923D1B99300FFE2E8 /* SceneDelegate.swift */,
 				EF12B54B23D1B99300FFE2E8 /* ViewController.swift */,
+				EF12B55E23D1B9EF00FFE2E8 /* AppleMusicTableViewCell.swift */,
+				EF12B56023D1B9F600FFE2E8 /* AppleMusicTableViewCell.xib */,
+				EF12B56223D1B9FE00FFE2E8 /* AppleMusicCollectionViewCell.swift */,
+				EF12B56423D1BA0500FFE2E8 /* AppleMusicCollectionViewCell.xib */,
 				EF12B54D23D1B99300FFE2E8 /* Main.storyboard */,
 				EF12B55323D1B99500FFE2E8 /* Assets.xcassets */,
 				EF12B55523D1B99500FFE2E8 /* LaunchScreen.storyboard */,
@@ -128,8 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF12B56723D1BADD00FFE2E8 /* ドン.jpg in Resources */,
+				EF12B56523D1BA0600FFE2E8 /* AppleMusicCollectionViewCell.xib in Resources */,
 				EF12B55723D1B99500FFE2E8 /* LaunchScreen.storyboard in Resources */,
 				EF12B55423D1B99500FFE2E8 /* Assets.xcassets in Resources */,
+				EF12B56123D1B9F600FFE2E8 /* AppleMusicTableViewCell.xib in Resources */,
 				EF12B54F23D1B99300FFE2E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +162,9 @@
 				EF12B54C23D1B99300FFE2E8 /* ViewController.swift in Sources */,
 				EF12B54823D1B99300FFE2E8 /* AppDelegate.swift in Sources */,
 				EF12B55223D1B99300FFE2E8 /* AppleMusicSample.xcdatamodeld in Sources */,
+				EF12B55F23D1B9EF00FFE2E8 /* AppleMusicTableViewCell.swift in Sources */,
 				EF12B54A23D1B99300FFE2E8 /* SceneDelegate.swift in Sources */,
+				EF12B56323D1B9FE00FFE2E8 /* AppleMusicCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
